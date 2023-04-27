@@ -50,6 +50,9 @@
 .button-containers{
     display: flex;
     gap: 18px;
+    width: 100%;
+    /* padding: 0 34px;  */
+    margin: 0;
 }
 
 .profile-button{
@@ -63,11 +66,20 @@
     gap: 8px;
     font-weight: 500;
     font-size: 14px;
+    width: 100%;
 }
 
 .linkedin-button{
     background-color: #5093E2;
     color: #FFFFFF;
+}
+
+.aboutMe-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 0 34px; 
 }
 
 .tittle-container{
